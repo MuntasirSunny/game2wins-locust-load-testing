@@ -7,7 +7,7 @@ This project uses Locust to simulate user traffic to the Game2Wins website and i
 The `game2wins.py` script defines two types of users for load testing:
 
 1.  **WebsiteUser**: Simulates users browsing the main Game2Wins website.
-2.  **ApiUser**: Simulates API traffic to the game2wins CMS endpoints.
+2.  **ApiUser**: Simulates API traffic to the game2wins API endpoints.
 
 ## Prerequisites
 
@@ -19,18 +19,8 @@ The `game2wins.py` script defines two types of users for load testing:
 1.  **Create a virtual environment:**
 
     ```bash
-    python -m venv myenv
+    python -m venv myenv  ## python3 -m venv myenv
     ```
-
-    # or,
-    ```bash
-    python3 -m venv myenv
-    ```
-    # Initiating virtual Environment:
-    source myenv/bin/activate
-
-    # Deactivate Virtual Environment: 
-    deactivate
 
 
 2.  **Activate the virtual environment:**
